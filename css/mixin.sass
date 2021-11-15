@@ -1,11 +1,25 @@
-@mixin flex ($flex, $justify)
+@mixin flex ($flex: auto, $justify: auto, $align: auto)
     display: $flex
     justify-content: $justify
+    align-items: $align
 
 
-@mixin img ($cover, $noRepeat, $center)
+@mixin img ($cover: auto, $noRepeat: auto, $center: auto)
     background-size: $cover
     background-repeat: $noRepeat
     background-position: $center
+
+
+
+@mixin size ($width: auto, $height: auto)
+    width: $width
+    height: $height
+
+@mixin font ($size: auto, $font-family: auto, $line-height: auto, $color: auto)
+    font-size: $size
+    font-family: $font-family
+    line-height: $line-height
+    color: $color
+
 
 

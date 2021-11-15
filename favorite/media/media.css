@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 1423px) {
+    .menu{
+          width: 40%;
+          
+      }
+  }
+@media screen and (max-width: 1227px) {
+       .menu{
+          width: 45%;
+      }
+  }
+  @media screen and (max-width: 1085px) {
+      .menu{
+          width: 50%;
+      }
+     
+  } 
+  @media screen and (max-width: 978px) {
+      .menu{
+          width: 55%;
+          font-size: 80%;
+      }
+      .menu a{
+          font-size: 1.2em;
+      }
+     
+    
+  }
+  @media screen and (max-width: 839px) {
+      .menu{
+          width: 55%;
+          font-size: 75%;
+      }
+      .photos_column{
+          width: 33%;
+      }
+    
+  }
+  @media screen and (max-width: 793px) {
+      .menu{
+          width: 30%;
+      }
+      .menu span{
+          display: none;
+      }  
+      .photos_column{
+          width: 100%;
+          
+      }
+  }
+  
+  
+  @media screen and (max-width: 505px) {
+      .inner_content{
+          width: 90%;
+      }
+      .menu{
+          width: 25%;
+      }
+      .logo span{
+          display: none;
+      }
+  }

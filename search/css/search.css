@@ -1,0 +1,115 @@
+body {
+  margin: 0 auto;
+}
+
+.inner_content {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper_search_header {
+  color: #fff;
+  background: #000000;
+  width: 100%;
+  height: 35vh;
+}
+.wrapper_search_header .inner_content {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.wrapper_search_header .inner_content .header_up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+}
+.wrapper_search_header .inner_content .header_up a {
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+  align-items: center;
+}
+.wrapper_search_header .inner_content .header_up img {
+  margin-right: 13px;
+  width: 20px;
+  height: none;
+}
+.wrapper_search_header .inner_content .header_down {
+  text-align: center;
+  width: 80%;
+}
+.wrapper_search_header .inner_content .header_down .inner_text_block {
+  white-space: nowrap;
+}
+.wrapper_search_header .inner_content .header_down img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+  width: 25%;
+  height: none;
+}
+
+.wrapper_photos_section .inner_content {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: auto;
+}
+.wrapper_photos_section .inner_content .inner_text_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+}
+.wrapper_photos_section .inner_content .inner_photos_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+  flex-wrap: wrap;
+}
+
+.photos_column {
+  width: 30%;
+}
+.photos_column img {
+  width: 100%;
+}
+
+.wrapper_main_photos .btn_left td {
+  width: 23px;
+  height: 10px;
+  background: #BDBDBD;
+}
+.wrapper_main_photos .btn_right td {
+  width: 10px;
+  height: 10px;
+  background: #000000;
+}
+
+.wrapper_main_photos {
+  height: 20vh;
+}
+.wrapper_main_photos .inner_content {
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=search.css.map */

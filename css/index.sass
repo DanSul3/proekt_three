@@ -1,0 +1,135 @@
+@import "mixin"
+
+body
+    margin: 0 auto
+    font-size: 100%
+
+.inner_content
+    margin: 0 auto
+    @include size (78%, none)
+
+    @include flex (flex, space-between, none)
+    height: 100%
+
+a
+    text-decoration: none
+    color: #fff
+
+header
+    background: #000000
+    @include size (100%, 9vh)
+
+    .inner_content
+        align-items: center
+
+        .logo
+            @include font (1.375em, SF UI Display, 29px, none)
+
+        a
+            @include flex (flex, space-between, none)
+            align-items: center
+
+            img
+                margin-right: 13px
+                @include size (20px, none)
+
+
+
+.menu
+    @include flex (flex, space-between, none)
+    @include size (35%, none)
+    a
+        @include font (1.0625em, SF UI Display, 24px, none)
+        
+
+.wrapper_one_section
+    background-image: url(../image/13.png)
+    @include img (cover, no-repeat, center)
+    @include size (100%, 108vh)
+
+    .inner_content
+        @include flex (flex, space-between, none)
+        flex-direction: column
+        justify-content: space-evenly
+        height: 100%
+
+        .inner_up_block
+            @include flex (flex, space-between, none)
+            @include size (none, 40px)
+            .user_box
+                @include size (16%, 100%)
+                @include flex (flex, space-between, center)
+                img
+                    @include img (cover, no-repeat, center)
+                    height: 100%
+                    margin-right: 15px
+            
+                p
+                    @include font (1.25em, SF UI Display, 20px, none)
+                    white-space: nowrap
+                    span
+                        font-size: 14px
+
+.inner_down_block
+    @include flex (flex, none, center)
+    flex-direction: column
+
+    h3
+        @include font (1.375em, SF UI Display, 24px, #ffffff)
+    a
+        @include font (1em, SF UI Display, none, #828282)
+        background: #FFFFFF
+        border-radius: 8px
+        padding: 3px 6px
+
+.search_suggestions
+    @include flex (flex, space-between, none)
+    @include size (30%, auto)
+
+.inner_img_block
+            @include size (100%, 530px)
+            background-image: url(../image/photo.png)
+            @include img (cover, auto, center)
+
+
+
+.btn_box
+    @include flex (flex, space-between, none)
+    @include size (none, 100%)
+    button
+        margin-left: 20px
+        @include flex (flex, space-evenly, center)
+        height: 100%
+        border: none
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 8px
+        @include font (1.0625em, SF UI Display, 24px, #F2F2F2)
+
+    .btn_favorite
+        width: 45px
+        background: #FFFFFF
+
+    .btn_download
+        background: #219653
+        width: 140px
+
+.wrapper_photos_section
+    .inner_content
+        flex-direction: column
+
+.inner_text_block
+    @include flex (flex, space-between, none)
+    h2
+        @include font (1.8em, SF UI Display, 24px, #000000)
+
+    p
+        @include font (0.8em, SF UI Display, 24px, #000000)
+
+
+.inner_photos_block
+    @include flex (flex, space-between, none)
+    flex-wrap: wrap
+.photos_column
+    width: 30%
+    img
+        width: 100%

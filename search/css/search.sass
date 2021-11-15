@@ -1,0 +1,93 @@
+@import 'mixin'
+
+body
+    margin: 0 auto
+
+.inner_content
+    margin: 0 auto
+    width: 75%
+    @include flex (flex, space-between, none)
+    height: 100%
+
+a
+    text-decoration: none
+    color: #fff
+
+.wrapper_search_header
+    color: #fff
+    background: #000000
+    @include size (100%, 35vh)
+    .inner_content
+        align-items: center
+        flex-direction: column
+        justify-content: space-evenly
+        overflow: hidden
+        .header_up
+            width: 100%
+            @include flex (flex, space-between)
+
+            a
+                @include flex (flex, space-between)
+                align-items: center
+
+            img
+                margin-right: 13px
+                @include size (20px, none)
+
+        .header_down
+            text-align: center
+            width: 80%
+            .inner_text_block
+                white-space: nowrap
+            img
+                @include img (cover, no-repeat, center)
+                @include size (100%, none)
+                
+
+
+
+.menu
+    @include flex (flex, space-between)
+    @include size (25%, none)
+
+.wrapper_photos_section
+    .inner_content
+        flex-direction: column
+        @include flex (flex, space-evenly)
+
+        .inner_text_block
+            @include flex (flex, space-between)
+
+        .inner_photos_block
+            @include flex (flex, space-between)
+            flex-wrap: wrap
+
+
+
+.photos_column
+    width: 30%
+    img
+        width: 100%
+
+
+.wrapper_main_photos
+    .btn_left
+        td
+            @include size (23px, 10px)
+            background: #BDBDBD
+
+    .btn_right
+        td
+
+            @include size (10px, 10px)
+            background: #000000
+
+
+.wrapper_main_photos
+    
+    height: 20vh
+  
+    .inner_content
+        align-items: center
+        justify-content: center
+       

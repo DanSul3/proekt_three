@@ -1,0 +1,132 @@
+@media screen and (max-width: 1500px) {
+    .wrapper_one_section{
+        height: 120vh;
+    }
+}
+@media screen and (max-width: 1423px) {
+    .menu{
+        width: 40%;
+    }
+    .search_suggestions{
+        width: 38%;
+    }
+}
+@media screen and (max-width: 1227px) {
+    .menu{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1085px) {
+    .menu{
+        width: 48%;
+    }
+    .search_suggestions{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 978px) {
+    .menu{
+        width: 55%;
+        font-size: 80%;
+    }
+    .menu a{
+        font-size: 1.2em;
+    }
+    .search_suggestions{
+        width: 50%;
+    }
+   
+  
+}
+@media screen and (max-width: 839px) {
+    .menu{
+        width: 55%;
+        font-size: 75%;
+    }
+    .search_suggestions{
+        width: 60%;
+    }
+    .photos_column{
+        width: 33%;
+    }
+  
+}
+@media screen and (max-width: 793px) {
+    .menu{
+        width: 30%;
+    }
+    .menu span{
+        display: none;
+    }  
+}
+@media screen and (max-width: 718px) {
+    .btn_box span{
+        display: none;
+    }
+    .btn_box .btn_favorite, .btn_box .btn_download{
+        width: 38px;
+    }
+    .search_suggestions{
+        width: 70%;
+    }
+    .inner_text_block h2{
+        font-size: 1.4em;
+    }
+    
+    .photos_column{
+        width: 100%;
+        
+    }
+    
+
+}
+@media screen and (max-width: 601px) {
+    .search_suggestions{
+        width: 82%;
+    }
+}
+@media screen and (max-width: 505px) {
+    .inner_content{
+        width: 90%;
+    }
+    .menu{
+        width: 40%;
+    }
+    .logo span{
+        display: none;
+    }
+    .wrapper_one_section{
+        height: 90vh;
+        background-image: none;
+    }
+    .inner_img_block{
+        height: 280px;
+    }
+    .inner_down_block{
+        align-items: flex-start;
+    }
+    .inner_down_block h3{
+        color: #000;
+    }
+    .inner_down_block a{
+        background: #e2e2e2;
+        width: 18%;
+        white-space: nowrap;
+        text-align: center;
+        
+        font-size: 0.9em;
+        
+    } 
+    .search_suggestions .link_free_pictures{
+        width: 30%;
+    }
+    .search_suggestions{
+        align-content: space-between;
+        height: 60px;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .inner_text_block p{
+        display: none;
+    }
+}
